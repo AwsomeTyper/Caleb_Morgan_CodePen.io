@@ -1,0 +1,89 @@
+.navigation-wrapper {
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+    height: 80px;
+}
+
+/* Left Column */
+.navigation-wrapper > .left-column > .logo img {
+    height: 40px;
+}
+
+/* Center Column */
+.navigation-wrapper > .center-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation-wrapper > .center-column > .top-container {
+    color: yellow;
+    /* height: 20px; */
+    font-size: .9em;
+}
+
+.navigation-wrapper > .center-column > .bottom-container {
+    height: 20px;
+}
+
+.links-wrapper {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.links-wrapper > .nav-link {
+   padding-right: 15px;
+}
+
+.links-wrapper > .nav-link a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.links-wrapper > .drop-menu-wrapper {
+    color: gray;
+    width: 120px;
+    text-align: center;
+}
+
+.links-wrapper > .drop-menu-wrapper i {
+    width: 35px;
+}
+
+/* Right Column */
+.navigation-wrapper > .right-column {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.navigation-wrapper > .right-column > .btn {
+    background-color: #36454F;
+    height: 50px;
+    font-weight: 600;
+    font-size: 1em;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 20px;
+    margin: 5px;
+}
+
+.navigation-wrapper > .right-column > .btn i {
+    color: seagreen;
+    width: 20px;
+    text-align: right;
+    font-weight: 800;
+}
+
+.navigation-wrapper > .right-column > .search-btn {
+    background-color: black;
+    color: gray;
+    font-size: 1.75em;
+    margin: 5px;
+}
+
